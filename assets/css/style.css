@@ -1,0 +1,96 @@
+body {
+	background:url("../images/yellow-seamless-paper-texture-pattern-500x500.jpg") repeat;
+	font-family: 'Smythe', cursive;
+	color:#150701;
+}
+
+h1 {
+	font-size:4rem;
+	text-align: center;
+	margin:70px auto;
+    font-family: 'Ribeye', cursive;
+}
+
+
+.container {
+	width:800px;
+	height:400px;
+	display: table;
+	margin:15px auto 0;
+	padding:30px;
+	/* background-color: #f1e6cd; */
+	border-radius: 40px;
+	text-align: center;
+	font-size:30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+	margin:0 auto;
+	display:block;
+	width:460px;
+}
+
+.timer {
+	position: absolute;
+	top:30px;
+	right:50px;
+	margin-bottom: 50px;
+}
+
+.question {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+#theGame {
+	display: block;
+}
+
+p {
+	font-size: 2em;
+	margin-bottom:30px;
+}
+
+ul li {
+	font-size: 1.1em;
+	cursor: pointer;
+	text-align: center;
+	margin:15px auto 0;
+	background: rgba(14,11,6,0.5);
+	padding:12px;
+	border-radius: 30px;
+	color:white;
+	width:40%;
+	border:2px solid white;
+	transition: background-color 0.5s ease;
+}
+
+ul li:hover {
+	background-color:#150701;
+	color:#F1E6CD;
+}
+
+ul li:active {
+	background-color: brown;
+}
+
+#start {
+	padding:15px;
+	border-radius: 20px;
+	border:0;
+	color:#fff;
+	font-size:3em;
+	font-family: 'Smythe', cursive;
+	background-color:#150701;
+	transition:0.25s ease-out;
+}
+#start:hover{
+	 background-color:#5e0e0e;
+}
+
+/* .module {
+	display:none;
+} */
