@@ -44,11 +44,11 @@
    var intervalId;
    var slides;
    var count = 0;
+   var clicked = false
 
     //the game starts on button click
     $('#start').click(function() {
       displayQuestion(count);
-      answerPick();
       intervalId = setInterval(clock, 1000);
       $(this).hide();
     });
@@ -80,13 +80,15 @@
         var q = trivia[qId].question;
         var a = trivia[qId].choices;
         $("#theGame").html(("<div class='question'>" + q + "</div>") + ("<ul><li>" + a.join('</li><li>') + "</li></ul>"));
-        answerPick();
       }
     }
 
 
-  function answerPick() {   
-    $("li").click(function(e) {
+ // function answerPick() {   
+
+    $(document).on("click", "li", function(e) {
+        console.log(clicked)
+        // if (clicked) return clicked = false;
        var correctAnswer = trivia[count].correctAnswer;
        var chosenAnswer = $(this).text();
        if (correctAnswer === chosenAnswer) {
@@ -108,6 +110,7 @@
          displayQuestion(count);
       }
 
-  });}
+  });
+    //}
   
 });
