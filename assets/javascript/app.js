@@ -37,12 +37,12 @@
      question: "6. How much of your total body weight are bones?",
      choices: ["15%", "6%", "32%", "47%"],
      correctAnswer: "15%",
-     giphy: "http://cdn.fishki.net/upload/post/201511/04/1723462/010.gif"
+     giphy: "http://allergiesandyourgut.com/wp-content/uploads/2016/09/EhUyzd.gif"
    },{
      question: "7. What was the first car company in the world?",
      choices: ["Peugeot","Fiat", "Mercedes-Benz", "Ford"],
      correctAnswer: "Mercedes-Benz",
-     giphy: "https://thumbs.gfycat.com/SneakyImpishGaur-size_restricted.gif"
+     giphy: "https://media.giphy.com/media/ljGfAhpsZ17ws/giphy.gif"
    }];
 
    var wins = 0;
