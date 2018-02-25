@@ -47,7 +47,7 @@
 
    var wins = 0;
    var losses = 0;
-   var seconds = 5;
+   var seconds = 7;
    var intervalId;
    var slides;
    var count = 0;
@@ -68,7 +68,7 @@
         clearInterval(intervalId);
         losses++;
         count++;
-        seconds = 5;
+        seconds = 7;
         intervalId = setInterval(clock, 1000);
         displayQuestion(count);
       } 
@@ -76,7 +76,7 @@
 
   //displaying question
   function displayQuestion(qId) {
-      var seconds = 5;
+      var seconds = 7;
       $(".timer").show();
       if (qId >= trivia.length) {
         $("#theGame").html("<p>Game Over!!</p>");
