@@ -37,7 +37,7 @@
      question: "6. How much of your total body weight are bones?",
      choices: ["15%", "6%", "32%", "47%"],
      correctAnswer: "15%",
-     giphy: "http://allergiesandyourgut.com/wp-content/uploads/2016/09/EhUyzd.gif"
+     giphy: "https://media.giphy.com/media/zyfPTlQEI9lzW/giphy.gif"
    },{
      question: "7. What was the first car company in the world?",
      choices: ["Peugeot","Fiat", "Mercedes-Benz", "Ford"],
