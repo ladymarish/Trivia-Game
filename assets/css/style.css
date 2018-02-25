@@ -11,6 +11,11 @@ h1 {
     font-family: 'Ribeye', cursive;
 }
 
+img {
+	text-align: center;
+	margin:0 auto;
+	display:block;
+}
 
 .container {
 	width:800px;
@@ -24,6 +29,10 @@ h1 {
 	font-size:30px;
     justify-content: center;
     align-items: center;
+}
+
+.correct-answer {
+	font-weight: bold;
 }
 
 .logo {
