@@ -1,6 +1,6 @@
 # Trivia Game
 
-Click [here](http://www.dropwizard.io/1.0.2/docs/) to play the game! 
+Click [here](http://ladymarish.github.io/Trivia-Game/) to play the game! 
 
 ## Author: 
 
